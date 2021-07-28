@@ -11,6 +11,10 @@
     list-style: none;
 }
 
+/* html, body {
+    height: 100%;
+} */
+
 :root {
     --color0: #A8A8A8;
     --color1: #DBDBDB;
@@ -20,18 +24,24 @@
 
 .general-content {
     display: flex;
-    /*justify-content: space-between;
-     padding: 1em;
-    margin: 1em; */
 }
 
 /*  Menu */
 
 #navbar {
     background-color: var(--color0);
-    border: 2px solid var(--color2);
+    border-right: 2px solid var(--color2);
+    height: 100%;
     width: 25%;
     position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul {
+    height: 85%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #nav-title {
@@ -61,5 +71,6 @@
 #main-doc {
     background-color: var(--color1);
     width: 75%;
-    padding-left: 30%;
+    margin-left: 25%;
+    padding: 2em;
 }
