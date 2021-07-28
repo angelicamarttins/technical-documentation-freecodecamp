@@ -8,12 +8,8 @@
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    list-style: none;
+    line-height: 2em;
 }
-
-/* html, body {
-    height: 100%;
-} */
 
 :root {
     --color0: #A8A8A8;
@@ -42,6 +38,7 @@
     height: 85%;
     overflow-y: auto;
     overflow-x: hidden;
+    list-style: none;
 }
 
 #nav-title {
@@ -73,4 +70,24 @@
     width: 75%;
     margin-left: 25%;
     padding: 2em;
+}
+
+.main-section  ul {
+    border: 1px solid yellow;
+    padding: 0 3em;
+}
+
+.header-doc {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1em 0 0.25em 0;
+    color: var(--color2);
+}
+
+code {
+    color: #af0101;
+    background-color: var(--color0);
+    border-radius: 3px;
+    font-family: monospace;
+    padding: 0 2em;
 }
