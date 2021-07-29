@@ -19,16 +19,17 @@
                 <li><a class="nav-link" href="#variables">Variables</a></li>
                 <li><a class="nav-link" href="#declaring_variables">Declaring variables</a></li>
                 <li><a class="nav-link" href="#variable_scope">Variable scope</a></li>
-                <li><a class="nav-link" href="#global_scope">Global variables</a></li>
+                <li><a class="nav-link" href="#global_variables">Global variables</a></li>
                 <li><a class="nav-link" href="#constants">Constants</a></li>
                 <li><a class="nav-link" href="#data_types">Data types</a></li>
-                <li><a class="nav-link" href="#if_else_statement">if...else statement</a></li>
+                <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
                 <li><a class="nav-link" href="#while_statement">while statement</a></li>
                 <li><a class="nav-link" href="#function_declarations">Function declarations</a></li>
                 <li><a class="nav-link" href="#reference">Reference</a></li>
             </ul>
         </nav>
-           <main id="main-doc">
+        
+        <main id="main-doc">
             <section class="main-section" id="introduction">
                 <header class="header-doc">Introduction</header>
         
@@ -128,7 +129,7 @@
                 <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
             </section>
         
-            <section class="main-section" id="global_scope">
+            <section class="main-section" id="global_variables">
                 <header class="header-doc">Global variables</header>
 
                 <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
@@ -178,7 +179,7 @@
                 <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
             </section>
         
-            <section class="main-section" id="if_else_statement">
+            <section class="main-section" id="if...else_statement">
                 <header class="header-doc">if...else statement</header>
                 <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
         
@@ -236,7 +237,8 @@
                 <code>return number * number;</code>
                 <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
             </section>
-            <section id="reference">
+
+            <section class="main-section" id="reference">
                 <header class="header-doc">Reference</header>
         
                 <ul>
@@ -246,6 +248,6 @@
            </main>
     </div>
 
-   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
